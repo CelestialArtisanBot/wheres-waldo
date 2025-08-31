@@ -5,7 +5,7 @@ export default {
       const randomTheme = themeOptions[Math.floor(Math.random() * themeOptions.length)];
 
       const inputs = {
-        prompt: `A high-resolution, detailed illustration of a crowded ${randomTheme} scene, featuring many people, objects, and activities. Waldo (Wally) is hiding somewhere in the scene, wearing his signature red and white striped shirt, bobble hat, and glasses. The scene is vibrant and colorful, with plenty of distractions to make finding Waldo challenging.`,
+        prompt: `A detailed illustration of a crowded ${randomTheme} scene with hundreds of people. Waldo (Wally) is hiding in plain sight, wearing a distinctive red and white horizontally striped shirt, a red and white bobble hat, and black glasses with round lenses. Include many distracting objects, characters, and activities to make finding Waldo challenging.`,
       };
 
       const response = await env.AI.run(
