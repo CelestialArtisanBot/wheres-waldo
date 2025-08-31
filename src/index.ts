@@ -5,7 +5,7 @@ export default {
       const randomTheme = themeOptions[Math.floor(Math.random() * themeOptions.length)];
 
       const inputs = {
-        prompt: `A detailed illustration of a crowded ${randomTheme} scene with hundreds of people. There is only one Waldo (Wally) in the scene, wearing a distinctive red and white horizontally striped shirt, a red and white bobble hat, and black glasses with round lenses. Include many distracting objects, characters, and activities to make finding Waldo challenging.`,
+        prompt: `A detailed illustration of a crowded ${randomTheme} scene with hundreds of people. Amidst the crowd, there exists a single individual, Waldo (Wally), wearing a distinctive red and white horizontally striped shirt, a red and white bobble hat, and black glasses with round lenses. Ensure Waldo is the ONLY character in the scene with this exact outfit. Include many distracting objects, characters, and activities to make finding Waldo challenging.`,
       };
 
       const response = await env.AI.run(
